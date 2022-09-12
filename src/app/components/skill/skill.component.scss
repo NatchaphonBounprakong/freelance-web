@@ -1,0 +1,57 @@
+.box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px 20px 20px;
+  min-height: 200px;
+}
+
+.title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -14px;
+  white-space: nowrap;
+  padding: 5px 10px;
+  width: min-content;
+  background-color: #FF725E;
+  color: white;
+  font-size: 20px;
+  //font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 10px;
+}
+
+.skill-logo {
+  width: 100%;
+  height: auto;
+  max-width: 75px;
+  margin: 10px;
+
+}
+
+.img-wrapper {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6,
+.col-md-12 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grey {
+  font-weight: bold;
+  color: #525E75
+}
+
+.flex-center {
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,307 @@
+.container-fluid {
+  padding: 20px;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap');
+
+.card-1 {
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #205375;
+  color: #DFF5F2;
+  max-width: 300px;
+
+  //max-height: 300px;
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .body {
+    padding: 10px;
+  }
+
+  //width: 200px;
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    .title {
+      font-size: 30px;
+      line-height: 1;
+      font-weight: bold;
+    }
+
+    .sub-title {
+      font-size: 14px;
+    }
+  }
+
+  .content {
+    padding: 10px 5px;
+  }
+
+  .action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+
+    .button {
+      border-radius: 10px;
+      padding: 5px 10px;
+      font-weight: bold;
+      //background-color: #84B0D7;
+      color: #DFF5F2;
+      margin-left: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+      transition-duration: 0.5s;
+
+      &:hover {
+        background-color: #445F8B;
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.card-2 {
+  background-color: #323650;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 300px;
+  color: white;
+  padding: 20px 10px;
+  font-family: 'Koulen', cursive;
+
+  .action-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .action-bot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .social-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 10px;
+
+      .caption {
+        margin-top: 10px;
+      }
+
+      i {
+        font-size: 20px;
+      }
+
+      .item-1 {
+        background: linear-gradient(20deg, rgba(95, 231, 253, 1) 0%, rgba(17, 98, 255, 1) 100%);
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item-2 {
+        background: linear-gradient(20deg, rgba(161, 95, 253, 1) 0%, rgba(255, 17, 214, 1) 100%);
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item-3 {
+        background: linear-gradient(20deg, rgba(6, 125, 86, 1) 0%, rgba(80, 255, 215, 1) 100%);
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      ;
+    }
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .content {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .sub-title {
+    color: #6a6f8a;
+  }
+
+  .avatar {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    // border: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .btn-grad {
+    background-image: linear-gradient(to right, rgb(71, 118, 230) 0%, rgb(142, 84, 233) 51%, rgb(71, 118, 230) 100%)
+  }
+
+  .btn-grad {
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    //box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+.card-3 {
+  //height: min-content;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  .banner {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(20deg, #a15ffd 0%, #ff11d6 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .body {
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .avatar {
+      object-fit: cover;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      border: 5px solid white;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: -50px;
+    }
+
+    .title {
+      font-family: 'Shrikhand', cursive;
+      font-size: 25px;
+      //font-weight: bold;
+    }
+
+    .sub-title {
+      font-family: 'Sansita', sans-serif;
+      font-size: 16px;
+      //font-weight: bold;
+    }
+
+    .content {
+      font-family: 'Sansita', sans-serif;
+      text-align: center;
+      padding: 10px;
+    }
+
+  }
+
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    min-height: 30px;
+    background: linear-gradient(20deg, #4776e6 0%, #8e54e9 51%, #4776e6 100%);
+
+    .btn-grad {
+      font-family: 'Sansita', sans-serif;
+      background-color: white;
+    }
+
+    .btn-grad {
+      margin: 10px;
+      padding: 5px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: black;
+      //box-shadow: 0 0 20px #eee;
+      border-radius: 30px;
+      display: block;
+    }
+
+    // .btn-grad:hover {
+    //   background-position: right center;
+    //   /* change the direction of the change here */
+    //   color: #fff;
+    //   text-decoration: none;
+    // }
+
+
+
+  }
+}

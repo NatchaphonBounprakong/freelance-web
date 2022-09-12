@@ -2,11 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html {
   font-size: 16px;
 
 }
-body{
+
+body {
   margin: 0px !important;
-  font-family: 'Kanit','Roboto', sans-serif !important;
+  font-family: 'Source Code Pro', 'Kanit', 'Roboto', sans-serif !important;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  //margin: 30px 0;
+  padding: 30px 0;
+
+}
+
+.wrapper {
+  background: linear-gradient(0deg, rgba(255, 228, 228, 1) 0%, rgba(228, 251, 255, 1) 48%);
+  width: 100%;
+}
+
+.img-responsive {
+  height: auto;
+  width: 100%;
 }

@@ -1,0 +1,76 @@
+#page {
+  display: flex;
+  height: calc(100vh - 72px);
+  /* calculate the height. Header is 30px */
+}
+
+@media only screen and (max-width: 768px) {
+  #sideBar {
+    display: none;
+  }
+}
+
+#sideBar {
+  width: 200px;
+  background: #363062;
+}
+
+#content {
+  //background: blue;
+  flex: 1;
+  height: calc(100vh - 72px);
+  overflow: auto;
+  //padding: 20px;
+  /* enable grow, disable shrink */
+}
+
+.logo {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-responsive {
+  max-width: 150px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Righteous&display=swap');
+
+.menu-item {
+
+  font-family: 'Righteous', cursive;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+
+  i {
+    margin-right: 10px;
+  }
+
+  .item {
+    transition-duration: 0.5s
+  }
+
+  &:hover {
+    background-color: #827397;
+
+    .item {
+      // animation: 1s hover;
+      transform: translateX(-5px) translateY(-5px);
+      text-shadow: 3px 3px #ff0000;
+    }
+
+
+  }
+
+  @keyframes hover {
+    100% {
+      transform: translateX(-5px) translateY(-5px);
+    }
+  }
+}

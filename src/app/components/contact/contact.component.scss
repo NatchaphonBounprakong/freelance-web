@@ -1,0 +1,129 @@
+.fab,
+i {
+  font-size: 30px
+}
+
+.box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px 20px 20px;
+  min-height: 200px;
+}
+
+
+.row {
+  margin-top: 20px;
+}
+
+.title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -14px;
+  white-space: nowrap;
+  padding: 5px 10px;
+  width: min-content;
+  background-color: #FF725E;
+  color: white;
+  font-size: 20px;
+  //font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 10px;
+}
+
+#head {
+  animation: rotate 2s infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#leg1 {
+  animation: rotate 2s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+#leg2 {
+  animation: rotate2 2s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+#left1 {
+  animation: rotate2 2s infinite alternate;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+#left2 {
+  animation: rotate3 2s infinite alternate;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+#left3 {
+  animation: rotate2 2s infinite alternate;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+#lamp {
+  animation: rotate4 4s infinite alternate;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+svg {
+  max-width: 500px;
+  height: auto;
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+
+  }
+}
+
+
+@keyframes rotate3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+
+  }
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(10deg) translateX(11px);
+
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+
+  }
+}

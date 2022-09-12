@@ -1,0 +1,39 @@
+<div class="wrapper flex-center" style="width: 100%;height: calc(100vh - 72px);">
+  <div class="container ">
+    <div class="section">
+      <div class="row flex align-center">
+        <div class="col-md-6" data-aos="fade-right">
+          <h2 style="color: #FF725E;">
+            HELL0 !!
+          </h2>
+          <h1 style="color: #525E75;">
+            I am <br> <span style="color: #FF725E;">Natchaphon Boonprakong</span>
+          </h1>
+          <h2 style="color: #FF725E;">Web Developer</h2>
+          <div style="font-size: 20px;color: #525E75;margin-top: 30px;">
+            Hello, I'm a web developer. live in Thailand
+            I have a passion for making websites. and create a good user experience
+            I'm currently working at a large company with lots of good quality people around me.
+            I keep improving myself. Hope you pass by feel good about me.
+          </div>
+          <div style="margin-top: 20px;" class="flex align-center">
+            <button type="button" class="btn" (mouseover)="hoverCv=true" (mouseout)="hoverCv=false">Download CV</button>
+            <div *ngIf="hoverCv" style="margin-left: 10px;" [ngClass]="hoverCv?'bounce-in-right':''">
+              <i class="fa-solid fa-file-lines" style="font-size: 30px;"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 flex-center" data-aos="fade-left">
+          <img style="width: 100%; height: auto;max-width: 300px;border-radius: 10px;" src="../../../assets/1542093590391.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+</div>
+<!-- <app-banner></app-banner> -->
